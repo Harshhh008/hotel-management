@@ -4,11 +4,9 @@ menu = {
     "dhosa" : 150,
     "pizza" : 1000
 }
-i = 1;
 print("CHOOSE your menu:")
 for key,value in menu.items():
-    print(f"{i}.{key} : {value}")   
-    i += 1
+    print(f"{key} : {value}")   
 
 count_price = 0
 item = input("choose ur item:")
